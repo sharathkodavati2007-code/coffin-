@@ -95,13 +95,13 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=2070" 
-            alt="Dark Coffee" 
-            className="w-full h-full object-cover opacity-30 grayscale"
-            referrerPolicy="no-referrer"
-          />
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <iframe
+            className="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-30 grayscale"
+            src="https://www.youtube.com/embed/0LvCSrp_470?autoplay=1&mute=1&loop=1&playlist=0LvCSrp_470&controls=0&showinfo=0&rel=0&iv_load_policy=3"
+            allow="autoplay; encrypted-media"
+            title="Hero Background Video"
+          ></iframe>
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black" />
         </div>
 
@@ -197,7 +197,7 @@ export default function App() {
           <div className="relative">
             <div className="aspect-[4/5] rounded-3xl overflow-hidden border border-white/10">
               <img 
-                src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&q=80&w=1974" 
+                src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&q=80&w=2070" 
                 alt="Coffee Shop Interior" 
                 className="w-full h-full object-cover grayscale brightness-50"
                 referrerPolicy="no-referrer"
